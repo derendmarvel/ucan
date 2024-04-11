@@ -20,7 +20,8 @@ class User extends Authenticatable
     protected $fillable = [
         'name',
         'email',
-        'password',
+        'nim',
+        'role'
     ];
 
     /**
@@ -42,4 +43,18 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
+    public function isGuest(): bool {
+        if ($this->role == 'guest'){
+            return true;
+        }
+        return false;
+    }
+
+    public function isVIP(): bool {
+        if ($this->role == 'VIP') {
+            return true;
+        }
+        return false;
+    }
 }

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,21 +14,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::post('/signin', [UserController::class, 'store'])->name('signin');
+
 Route::get('/', function () {
-    return view('invitation');
-});
+    return view('home');
+})->name('home');
 
 Route::get('/home', function () {
     return view('home');
-});
+})->name('home');
 
 Route::get('/info', function () {
     return view('details');
-});
-
-
-
+})->middleware('normalguest')->name('info');
 
 Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

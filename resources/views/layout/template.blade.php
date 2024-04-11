@@ -9,9 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -66,6 +64,17 @@
 
         .header-2{
             padding:110px;
+        }
+
+        .header-info{
+            padding: 120px;
+        }
+
+        .login-section{
+            padding-left: 180px;
+            padding-right: 180px;
+            padding-top: 130px;
+            padding-bottom: 100px;
         }
 
         .invitation-background{
@@ -130,28 +139,18 @@
             height: 100%;
         }
 
-        .btn-gradient {
-            background: linear-gradient(to right, #b57e10, #FFDC37);
-            border: 2px solid #b57e10;
-            color: white;
-            transition: border-color 0.5s;
-        }
-
-        .btn-gradient:hover {
-            background: transparent;
-            border-color: #FFDC37; 
-        }
-
         .btn-white {
             background: transparent;
-            border: 2px solid #ffffff;
+            border: 2px solid;
+            border-color: #ffffff;
             color: white;
-            transition: border-color 1s;
+            transition: border-color 0.2s, color 0.2;
         }
 
         .btn-white:hover {
             background: transparent;
             border-color: #FFDC37; 
+            color: #FFDC37;
         }
 
         .menu-background{
@@ -181,12 +180,31 @@
         .swiper-slide {
             background-position: center;
             background-size: cover;
+            width: 400px;
+            height: 300px;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        #swiper1 .swiper {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        #swiper1 .swiper-slide {
+            background-position: center;
+            background-size: cover;
             width: 300px;
             height: 380px;
             border-radius: 50%;
         }
 
-        .swiper-slide img {
+        #swiper1 .swiper-slide img {
             display: block;
             width: 100%;
             height: 100%;
@@ -207,14 +225,13 @@
         }
 
         #swiper2 .swiper {
-            width: 100%;
+            width: 75%;
         }
 
         #swiper2 .swiper-slide {
             background-position: center;
             background-size: cover;
-            width: 500px;
-            height: 500px;
+            height: 530px;
         }
 
         #swiper2 .swiper-slide img {
@@ -254,26 +271,36 @@
         <nav class="navbar position-absolute w-100">
             <div class="container-fluid w-100">
                 <div class = "d-flex justify-content-between align-items-center w-100 px-3 mt-3"> 
-                    <a class="navbar-brand align-middle" href="/home">
+                    <a class="navbar-brand align-middle" href="/">
                         <img src="/images/Home Icon.png" alt="Home" height = "30" width = "30" data-aos="fade-up" data-aos-duration="2000">
                     </a>
                     <a class="navbar-brand" href="https://www.ciputra.ac.id/bma/">
                         <img src="/images/Watermark.png" alt=" Watermark" height = "60" width = "162" data-aos="fade-up" data-aos-duration="2000">
                     </a>
-                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                        <img src="/images/Menu Icon.png" alt="Menu" height = "30" width = "30" data-aos="fade-up" data-aos-duration="2000">
-                    </button>
+                    @auth
+                        @if (Auth::user()->isGuest() || Auth::user()->isVIP())
+                        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                            <img src="/images/Menu Icon.png" alt="Menu" height = "30" width = "30" data-aos="fade-up" data-aos-duration="2000">
+                        </button>
+                        @else
+                        @endif
+                    @endauth
+                    @guest
+                        @if (Route::has('login'))
+                            <a class="nav-link fs-5" href="/login" data-aos="fade-up" data-aos-duration="2000"> Sign In</a>
+                        @endif
+                    @endguest
                 </div>
             </div>
             <div class="offcanvas offcanvas-end menu-background text-white px-5 py-5" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <button type="button" class="btn-close position-absolute x-button" data-bs-dismiss="offcanvas" aria-label="Close"> </button>
                 <div class="offcanvas-header">
-                    <h1 class="offcanvas-title video-font pt-5" id="offcanvasNavbarLabel"> MENU</h1>
+                    <h1 class="offcanvas-title video-font pt-2" id="offcanvasNavbarLabel"> MENU</h1>
                 </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 fs-5">
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="/home">Home</a>
+                            <a class="nav-link active text-white" aria-current="page" href="/">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="/info"> More Information </a>
@@ -288,7 +315,17 @@
                             <a class="nav-link text-white" href="/info#dresscode"> Dresscode Reference </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="/info#activity"> Activity </a>
+                            <a class="nav-link text-white" href="/info#swiper2"> Activity </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bold" href="{{ route('logout') }}" onclick="event.preventDefault();
+                                document.getElementById('logout-form').submit();">
+                                {{ __('Logout') }}
+                            </a>
+
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                @csrf
+                            </form>
                         </li>
                     </ul>
                 </div>
