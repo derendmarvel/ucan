@@ -13,7 +13,12 @@
                     </div>
                     <div class = "row justify-content-center">
                     @auth
-                        <a class="btn btn-white w-75 w-md-50 py-3 px-2 px-md-5 fw-bold rounded-0 my-3 my-md-0" href = "{{ route('login') }}" data-aos = "fade-up" data-aos-duration = "2000" data-aos-delay = "750"> VIEW INVITATION </a>
+                        <div class = "col-6">
+                            <a class="btn btn-white py-3 px-2 px-md-5 fw-bold rounded-0 my-3 my-md-0" href = "{{ route('info') }}" data-aos = "fade-up" data-aos-duration = "2000" data-aos-delay = "750"> MORE INFORMATION </a>
+                        </div>
+                        <div class = "col-6">
+                            <a class="btn btn-white py-3 px-2 px-md-5 fw-bold rounded-0 my-3 my-md-0" href = "/download" data-aos = "fade-up" data-aos-duration = "2000" data-aos-delay = "750"> GET INVITATION </a>
+                        </div>
                     @else
                         <a class="btn btn-white w-50 py-3 px-2 px-md-5 fw-bold rounded-0 my-3 my-md-0" href = "{{ route('login') }}" data-aos = "fade-up" data-aos-duration = "2000" data-aos-delay = "750">  REGISTER NOW  </a>
                     @endauth

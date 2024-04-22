@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PDFController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 
@@ -27,5 +28,7 @@ Route::get('/home', function () {
 Route::get('/info', function () {
     return view('details');
 })->middleware('normalguest')->name('info');
+
+Route::get('/download', [PDFController::class, 'download'])->name('download');
 
 Auth::routes();
