@@ -6,7 +6,7 @@
     <title> @yield('title') </title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -52,27 +52,102 @@
         .video-font{
             font-family: "Montserrat", sans-serif;
             font-weight: 700;
-            font-size: 50px;
+            font-size: 30px;
+        }
+
+        .footer-font{
+            font-size: 12px;
+        }
+
+        .rundown-font-header{
+            font-size: 24px;
+        }
+
+        .rundown-font{
+            font-size: 20px;
+        }
+
+        .watermark-image{
+            width: 100px;
+        }
+
+        .awarding-night-image{
+            max-width: 100%;
+        }
+
+        .what{
+            width: 260px;
+        }
+
+        .performers{
+            width: 260px;
+        }
+
+        .guests{
+            width: 160px;
+            margin-top: 50px;
+        }
+
+        .guestlist{
+            width: 100%;
+        }
+
+        .logo{
+            width: 300px;
+        }
+
+        .rundown {
+            width: 260px;
+        }
+
+        .dresscode{
+            width: 350px;
+        }
+
+        .activity{
+            width: 260px;
+        }
+
+        .icon-size{
+            width: 50px;
+        }
+        
+        .contact-icon{
+            width: 24px;
         }
 
         .header{
-            padding-left: 150px;
-            padding-right: 150px;
-            padding-top: 100px;
-            padding-bottom: 100px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 140px;
+            padding-bottom: 140px;
         }
 
         .header-2{
-            padding:110px;
+            padding: 30px;
+        }
+
+        .header-3{
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 40px;
+            padding-bottom: 40px;
         }
 
         .header-info{
-            padding: 120px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 170px;
+            padding-bottom: 140px;
+        }
+
+        .font-signin{
+            font-size: 16px;
         }
 
         .login-section{
-            padding-left: 180px;
-            padding-right: 180px;
+            padding-left: 50px;
+            padding-right: 50px;
             padding-top: 130px;
             padding-bottom: 100px;
         }
@@ -96,15 +171,15 @@
         }
 
         .golden-section{
-            padding-left: 80px;
-            padding-right: 80px;
-            padding-top: 50px;
-            padding-bottom: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
         }
 
         .golden-section-2{
-            padding-left: 230px;
-            padding-right: 230px;
+            padding-left: 30px;
+            padding-right: 30px;
             padding-top: 20px;
             padding-bottom: 20px;
         }
@@ -116,10 +191,9 @@
         }
 
         .video-section{
-            padding-left: 60px;
-            padding-right: 60px;
-            padding-top: 100px;
-            padding-bottom: 100px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 20px;
         }
 
         .video-section-2{
@@ -143,6 +217,7 @@
             background: transparent;
             border: 2px solid;
             border-color: #ffffff;
+            font-size: 14px;
             color: white;
             transition: border-color 0.2s, color 0.2;
         }
@@ -231,7 +306,7 @@
         #swiper2 .swiper-slide {
             background-position: center;
             background-size: cover;
-            height: 530px;
+            height: 200px;
         }
 
         #swiper2 .swiper-slide img {
@@ -241,27 +316,199 @@
         }
 
         .line-style{
-            margin-top: -100px;
+            margin-top: -10px;
         }
 
         .line-style-2{
-            margin-bottom: -100px;
+            margin-bottom: -10px;
         }
 
         .star-line{
-            top: 70px;
-            max-width: 300px;
+            top: 20px;
+            width: 100px;
         }
 
-        .ribbon-style{
-            width: 100%;
-            margin: 0;
-            padding: 0;
+        .s-line{
+            content: url('/images/Line 2.png');
+            top: 10px;
+            width: 50px;
+        }
+
+        .s-line-2{
+            content: url('/images/Line 2.png');
+            top: 100px;
+            width: 50px;
+        }
+
+        .rotate-right{
+            transform: rotate(90deg);
+        }
+
+        .rotate-left{
+            transform: rotate(90deg);
+        }
+
+        .desc{
+            font-size: 16px;
         }
 
         .x-button{
             top: 44px;
             right: 44px;
+        }
+        
+        @media only screen and (min-width:1080px){
+            .header{
+                padding-left: 150px;
+                padding-right: 150px;
+                padding-top: 100px;
+                padding-bottom: 100px;
+            }
+            .header-2{
+                padding:110px;
+            }   
+            .header-3{
+                padding-left: 150px;
+                padding-right: 150px;
+                padding-top: 70px;
+                padding-bottom: 70px;
+            }
+            .header-info{
+                padding: 120px;
+            }
+            .video-font{
+                font-family: "Montserrat", sans-serif;
+                font-weight: 700;
+                font-size: 50px;
+            }
+            .footer-font{
+                font-size: 16px;
+            }
+            .rundown-font-header{
+                font-size: 40px;
+            }
+            .rundown-font{
+                font-size: 20px;
+            }
+            .video-section{
+                padding-left: 60px;
+                padding-right: 60px;
+                padding-top: 100px;
+                padding-bottom: 100px;
+            }
+            .login-section{
+                padding-left: 180px;
+                padding-right: 180px;
+                padding-top: 130px;
+                padding-bottom: 100px;
+            }
+            .watermark-image{
+                width: 160px;
+            }
+            .awarding-night-image{
+                max-width: 70%;
+            }
+            .what{
+                width: 550px;
+            }
+            .performers{
+                width: 600px;
+            }
+            .guests{
+                width: 400px;
+                margin-top: 150px;
+            }
+            .guestlist{
+                width: 90%;
+            }
+            .logo{
+                width: 700px;
+            }
+            .rundown {
+                width: 460px;
+            }
+            .dresscode{
+                width: 540px;
+            }
+            .activity{
+                width: 500px;
+            }
+            .icon-size{
+                width: 90px;
+            }
+            .contact-icon{
+                width: 40px;
+            }
+            .btn-white {
+                background: transparent;
+                border: 2px solid;
+                border-color: #ffffff;
+                font-size: 16px;
+                color: white;
+                transition: border-color 0.2s, color 0.2;
+            }
+            .btn-white:hover {
+                background: transparent;
+                border-color: #FFDC37; 
+                color: #FFDC37;
+            }
+            .font-signin{
+                font-size: 20px;
+            }
+            .golden-section{
+                padding-left: 80px;
+                padding-right: 80px;
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+            .golden-section-2{
+                padding-left: 230px;
+                padding-right: 230px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            .line-style{
+                margin-top: -100px;
+            }
+
+            .line-style-2{
+                margin-bottom: -100px;
+            }
+            .star-line{
+                top: 70px;
+                width: 300px;
+            }
+            .s-line{
+                content: url('/images/Line 1.png');
+            }
+            .s-line-2{
+                content: url('/images/Line 1.png');
+            }
+            .rotate-right{
+                transform: rotate(14deg);
+            }
+            .rotate-left{
+                transform: rotate(-14deg);
+            }
+            .desc{
+                font-size: 20px;
+            }
+            #swiper2 .swiper {
+                width: 75%;
+            }
+
+            #swiper2 .swiper-slide {
+                background-position: center;
+                background-size: cover;
+                height: 530px;
+            }
+
+            #swiper2 .swiper-slide img {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+            
         }
     </style>
 
@@ -275,7 +522,7 @@
                         <img src="/images/Home Icon.png" alt="Home" height = "30" width = "30" data-aos="fade-up" data-aos-duration="2000">
                     </a>
                     <a class="navbar-brand" href="https://www.ciputra.ac.id/bma/">
-                        <img src="/images/Watermark.png" alt=" Watermark" height = "60" width = "162" data-aos="fade-up" data-aos-duration="2000">
+                        <img src="/images/Watermark.png" class = "watermark-image" alt = "Watermark" data-aos="fade-up" data-aos-duration="2000">
                     </a>
                     @auth
                         @if (Auth::user()->isGuest() || Auth::user()->isVIP())
@@ -287,7 +534,7 @@
                     @endauth
                     @guest
                         @if (Route::has('login'))
-                            <a class="nav-link fs-5" href="/login" data-aos="fade-up" data-aos-duration="2000"> Sign In</a>
+                            <a class="nav-link font-signin" href="/login" data-aos="fade-up" data-aos-duration="2000"> Sign In </a>
                         @endif
                     @endguest
                 </div>
@@ -336,7 +583,7 @@
         </div>
 
         <footer>
-            <div class="w-100 align-items-center align-middle pt-3 pb-1 footer-gradient">
+            <div class="w-100 align-items-center align-middle pt-3 pb-1 px-4 footer-gradient footer-font">
                 <p class = "text-center"> Copyright © 2024 All Rights Reserved | Biro Mahasiswa Alumni Universitas Ciputra </p>
             </div>
         </footer>
@@ -420,6 +667,8 @@
         },
         });
     </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
 </html>
