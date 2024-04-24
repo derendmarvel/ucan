@@ -15,11 +15,11 @@ class UserSeeder extends Seeder
     public function run(): void
     {
         User::create([
-            'name' => 'Derend Marvel Hanson Prionggo',
-            'email' => 'dmarvelhanson@student.ciputra.ac.id',
+            'name' => 'BMA',
+            'email' => 'bma@ciputra.ac.id',
             'email_verified_at' => now(),
-            'nim'=> '0706012210030',
-            'role'=> 'guest',
+            'nim'=> 'BMACiputra2024',
+            'role'=> 'admin',
             'remember_token' => Str::random(10),
         ]);
     }

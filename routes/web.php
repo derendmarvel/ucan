@@ -17,6 +17,10 @@ use App\Http\Controllers\UserController;
 
 Route::post('/signin', [UserController::class, 'store'])->name('signin');
 
+Route::get('/guestlist', [UserController::class, 'guestlist'])->middleware('admin')->name('guestlist');
+Route::get('/guests', [UserController::class, 'guestSearch'])->middleware('admin')->name('guestSearch');
+Route::get('/vips', [UserController::class, 'vipSearch'])->middleware('admin')->name('vipSearch');
+
 Route::get('/', function () {
     return view('home');
 })->name('home');
@@ -29,6 +33,14 @@ Route::get('/info', function () {
     return view('details');
 })->middleware('normalguest')->name('info');
 
+Route::get('/infovip', function () {
+    return view('detailsvip');
+})->middleware('vip')->name('infovip');
+
 Route::get('/download', [PDFController::class, 'download'])->name('download');
+
+Route::get('/pdfview', function () {
+    return view('pdf');
+})->name('pdf');
 
 Auth::routes();

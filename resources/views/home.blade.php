@@ -13,12 +13,7 @@
                     </div>
                     <div class = "row justify-content-center">
                     @auth
-                        <div class = "col-6">
-                            <a class="btn btn-white py-3 px-2 px-md-5 fw-bold rounded-0 my-3 my-md-0" href = "{{ route('info') }}" data-aos = "fade-up" data-aos-duration = "2000" data-aos-delay = "750"> MORE INFORMATION </a>
-                        </div>
-                        <div class = "col-6">
-                            <a class="btn btn-white py-3 px-2 px-md-5 fw-bold rounded-0 my-3 my-md-0" href = "/download" data-aos = "fade-up" data-aos-duration = "2000" data-aos-delay = "750"> GET INVITATION </a>
-                        </div>
+                        <a class="btn btn-white w-50 py-3 px-2 px-md-5 fw-bold rounded-0 my-3 my-md-0" href = "{{ route('info') }}" data-aos = "fade-up" data-aos-duration = "2000" data-aos-delay = "750"> MORE INFO </a>
                     @else
                         <a class="btn btn-white w-50 py-3 px-2 px-md-5 fw-bold rounded-0 my-3 my-md-0" href = "{{ route('login') }}" data-aos = "fade-up" data-aos-duration = "2000" data-aos-delay = "750">  REGISTER NOW  </a>
                     @endauth
@@ -26,7 +21,7 @@
                 </div>
             </div>
 
-            <div class="row golden-background golden-section align-items-center">
+            <div class="row golden-background golden-section align-items-center shadow-lg">
                 <div class="col-12 col-md-4 px-5 py-1" data-aos="fade-up" data-aos-duration="2000">
                     <div class="row">
                         <div class="col-5">
@@ -91,7 +86,7 @@
                 </div>
 
 
-            <div class = "row golden-background golden-section-2 justify-content-center align-items-center align-middle">
+            <div class = "row golden-background golden-section-2 justify-content-center align-items-center align-middle shadow-lg">
                 <div class = "col" data-aos="fade-up" data-aos-duration = "2000">
                     <p id = "days" class = "fw-bold text-center countdown-font"> 00 </p>
                     <p class = "text-center fs-2"> Days </p>
@@ -126,14 +121,14 @@
                 </div>
             </div>
 
-            <div class = "row golden-background">
+            <div class = "row golden-background shadow-lg">
                 <div class = "col justify-content-center text-center align-items-center align-middle py-5">
                     @auth
-                       <h1 class="video-font" data-aos = "fade-up" data-aos-duration = "2000"> MORE INFO </h1>
-                        <a class="btn btn-white w-50 py-3 px-5 fw-bold rounded-0 my-0" href = "{{ route('info') }}" data-aos = "fade-up" data-aos-duration = "2000" data-aos-delay = "250"> VIEW DETAILS </a>
+                       <h1 class="video-font" data-aos = "fade-up" data-aos-duration = "2000"> GET INVITATION </h1>
+                        <a class="btn btn-white w-50 py-3 px-3 fw-bold rounded-0 my-0 text-center" href = "{{ route('download') }}" data-aos = "fade-up" data-aos-duration = "2000" data-aos-delay = "250"> DOWNLOAD INVITATION </a>
                     @else
                         <h1 class="video-font" data-aos = "fade-up" data-aos-duration = "2000"> REGISTER NOW </h1>
-                        <a class="btn btn-white w-50 w-md-25 py-3 px-3 px-md-5 fw-bold rounded-0 my-0" href = "{{ route('login') }}" data-aos = "fade-up" data-aos-duration = "2000" data-aos-delay = "250">  REGISTER NOW  </a>        
+                        <a class="btn btn-white w-50 py-3 px-3 px-md-5 fw-bold rounded-0 my-0" href = "{{ route('login') }}" data-aos = "fade-up" data-aos-duration = "2000" data-aos-delay = "250">  REGISTER NOW  </a>        
                     @endauth
                 </div>
             </div>
@@ -145,7 +140,7 @@
                     <div class="swiper mySwiper mt-1 mt-md-3" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "250">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img src="/images/Performer-2.jpg" />
+                                <a href = "https://www.instagram.com/resonance-world/"><img src="/images/Performer-2.jpg"/> </a>
                                 <div>
                                     <h1 class = "fw-bold fs-5 fs-md-4 py-2 px-4 performer-name"> Resonance </h1>
                                 </div>

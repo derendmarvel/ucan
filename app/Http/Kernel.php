@@ -2,7 +2,9 @@
 
 namespace App\Http;
 
+use App\Http\Middleware\Admin;
 use App\Http\Middleware\Guest;
+use App\Http\Middleware\VIP;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
 class Kernel extends HttpKernel
@@ -66,6 +68,7 @@ class Kernel extends HttpKernel
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
         'normalguest' => Guest::class,
-        'vip' => VIP::class 
+        'vip' => VIP::class,
+        'admin' => Admin::class
     ];
 }

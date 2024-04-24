@@ -21,7 +21,9 @@ class User extends Authenticatable
         'name',
         'email',
         'nim',
-        'role'
+        'role',
+        'presence',
+        'invitation_code'
     ];
 
     /**
@@ -53,6 +55,13 @@ class User extends Authenticatable
 
     public function isVIP(): bool {
         if ($this->role == 'VIP') {
+            return true;
+        }
+        return false;
+    }
+
+    public function isAdmin(): bool {
+        if ($this->role == 'admin') {
             return true;
         }
         return false;

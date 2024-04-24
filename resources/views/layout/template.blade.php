@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> @yield('title') </title>
+    <link rel="icon" type="image/x-icon" href="/images/logo ucan final-01.png">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     
@@ -356,6 +357,12 @@
             top: 44px;
             right: 44px;
         }
+
+        @media (max-width: 767px) {
+            .hide-on-mobile {
+                display: none; /* Hide the columns */
+            }
+        }
         
         @media only screen and (min-width:1080px){
             .header{
@@ -517,10 +524,20 @@
     <div>
         <nav class="navbar position-absolute w-100">
             <div class="container-fluid w-100">
-                <div class = "d-flex justify-content-between align-items-center w-100 px-3 mt-3"> 
-                    <a class="navbar-brand align-middle" href="/">
-                        <img src="/images/Home Icon.png" alt="Home" height = "30" width = "30" data-aos="fade-up" data-aos-duration="2000">
-                    </a>
+                <div class = "d-flex justify-content-between align-items-center w-100 px-3 mt-3">
+                    @auth
+                        @if (Auth::user()->isGuest() || Auth::user()->isVIP())
+                            <a class="navbar-brand align-middle" href="/">
+                                <img src="/images/Home Icon.png" alt="Home" height = "30" width = "30" data-aos="fade-up" data-aos-duration="2000">
+                            </a>
+                        @endif
+                    @endauth
+
+                    @guest
+                        <a class="navbar-brand align-middle" href="/">
+                            <img src="/images/Home Icon.png" alt="Home" height = "30" width = "30" data-aos="fade-up" data-aos-duration="2000">
+                        </a>
+                    @endguest
                     <a class="navbar-brand" href="https://www.ciputra.ac.id/bma/">
                         <img src="/images/Watermark.png" class = "watermark-image" alt = "Watermark" data-aos="fade-up" data-aos-duration="2000">
                     </a>
@@ -530,6 +547,14 @@
                             <img src="/images/Menu Icon.png" alt="Menu" height = "30" width = "30" data-aos="fade-up" data-aos-duration="2000">
                         </button>
                         @else
+                            <a class="nav-link text-white font-signin" href="{{ route('logout') }}" onclick="event.preventDefault();
+                                document.getElementById('logout-form').submit();" data-aos="fade-up" data-aos-duration="2000">
+                                {{ __('Logout') }}
+                            </a>
+
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                @csrf
+                            </form>
                         @endif
                     @endauth
                     @guest
