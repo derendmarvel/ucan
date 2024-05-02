@@ -44,7 +44,7 @@
                             </div>
 
                             <div class="row mb-1">
-                                <label for="nim" class="col-md-4 col-form-label fs-5">{{ __('NIM') }}</label>
+                                <label for="nim" class="col-md-4 col-form-label fs-5">{{ __('NIM/NIK') }}</label>
                             </div>
 
                             <div class="row mb-4">

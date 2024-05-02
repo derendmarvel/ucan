@@ -576,7 +576,7 @@
                     @endauth
                     @guest
                         @if (Route::has('login'))
-                            <a class="nav-link font-signin" href="/login" data-aos="fade-up" data-aos-duration="2000"> Sign In </a>
+                            <a class="nav-link font-signin" href="/login" data-aos="fade-up" data-aos-duration="2000"> Register </a>
                         @endif
                     @endguest
                 </div>
