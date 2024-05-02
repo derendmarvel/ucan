@@ -25,6 +25,7 @@
         body{
             font-family: 'Montserrat', sans-serif;
             color: white;
+            text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
             width: 100%;
             height: 100%;
             margin: 0;
@@ -358,6 +359,18 @@
             right: 44px;
         }
 
+        .page-link {
+            font-size: 1rem; /* Adjust as needed, default Bootstrap is often 1rem */
+            padding-left: 12px; /* Default padding for Bootstrap pagination links */
+            padding-right: 12px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+        }
+
+        .pagination-summary {
+            color: white; /* Set text color to white */
+        }
+
         @media (max-width: 767px) {
             .hide-on-mobile {
                 display: none; /* Hide the columns */
@@ -530,6 +543,10 @@
                             <a class="navbar-brand align-middle" href="/">
                                 <img src="/images/Home Icon.png" alt="Home" height = "30" width = "30" data-aos="fade-up" data-aos-duration="2000">
                             </a>
+                        @elseif (Auth::user()->isAdmin())
+                            <a class="navbar-brand align-middle" href="/guestlist">
+                                <img src="/images/check-circle.png" alt="Gueslist" height = "30" width = "30" data-aos="fade-up" data-aos-duration="2000">
+                            </a>
                         @endif
                     @endauth
 
@@ -574,9 +591,17 @@
                         <li class="nav-item">
                             <a class="nav-link active text-white" aria-current="page" href="/">Home</a>
                         </li>
+                        @auth
+                        @if (Auth::user()->isGuest())
                         <li class="nav-item">
                             <a class="nav-link text-white" href="/info"> More Information </a>
                         </li>
+                        @elseif (Auth::user()->isVIP())
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/infovip"> More Information </a>
+                        </li>
+                        @endif
+                        @endauth
                         <li class="nav-item">
                             <a class="nav-link text-white" href="/info#rundown"> Rundown </a>
                         </li>

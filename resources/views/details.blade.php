@@ -8,7 +8,7 @@
             <div class="row header-info align-items-center align-middle">
                 <div class="col-12 text-center mt-5">
                     <img src="/images/ucan white.png" alt="Title" class = "logo" data-aos = "fade-up" data-aos-duration = "2000" data-aos-delay = "250">
-                    <a class="btn btn-white w-50 py-3 px-2 px-md-5 fw-bold rounded-0 my-3 my-md-2" href = "{{ route('download') }}" data-aos = "fade-up" data-aos-duration = "2000" data-aos-delay = "750"> GET INVITATION </a>
+                    <a class="btn btn-white w-50 py-3 px-2 px-md-5 fw-bold rounded-0 my-3" href = "{{ route('download') }}" data-aos = "fade-up" data-aos-duration = "2000" data-aos-delay = "750"> GET INVITATION </a>
                 </div>
             </div>
 

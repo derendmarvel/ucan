@@ -19,4 +19,12 @@ class PDFController extends Controller
      
         return $pdf->download($user['invitation_code']. '.pdf');
     }
+
+    public function view() {
+        $user = Auth::user();
+
+        return view('pdf', [
+            'user' => $user
+        ]);
+    }
 }

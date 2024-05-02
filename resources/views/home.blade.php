@@ -13,7 +13,11 @@
                     </div>
                     <div class = "row justify-content-center">
                     @auth
-                        <a class="btn btn-white w-50 py-3 px-2 px-md-5 fw-bold rounded-0 my-3 my-md-0" href = "{{ route('info') }}" data-aos = "fade-up" data-aos-duration = "2000" data-aos-delay = "750"> MORE INFO </a>
+                        @if (Auth::user()->isGuest())
+                            <a class="btn btn-white w-50 py-3 px-2 px-md-5 fw-bold rounded-0 my-3 my-md-0" href = "{{ route('info') }}" data-aos = "fade-up" data-aos-duration = "2000" data-aos-delay = "750"> MORE INFO </a>
+                        @elseif (Auth::user()->isVIP())
+                            <a class="btn btn-white w-50 py-3 px-2 px-md-5 fw-bold rounded-0 my-3 my-md-0" href = "{{ route('infovip') }}" data-aos = "fade-up" data-aos-duration = "2000" data-aos-delay = "750"> MORE INFO </a>
+                        @endif
                     @else
                         <a class="btn btn-white w-50 py-3 px-2 px-md-5 fw-bold rounded-0 my-3 my-md-0" href = "{{ route('login') }}" data-aos = "fade-up" data-aos-duration = "2000" data-aos-delay = "750">  REGISTER NOW  </a>
                     @endauth
@@ -189,7 +193,7 @@
                 <img class = "position-relative w-100 line-style-2" src = "/images/Line.png"> 
             </div>
 
-            <div class = "row golden-background">
+            <div class = "row golden-background shadow-lg">
                 <div class = "col justify-content-center text-center align-items-center align-middle pt-5 pb-4">
                     <div class = "row">
                         <h1 class="video-font" data-aos = "fade-up" data-aos-duration = "2000"> CONTACT PERSON </h1>

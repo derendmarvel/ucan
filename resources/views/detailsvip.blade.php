@@ -246,48 +246,20 @@
                         <h1 class = "header-font fs-4" data-aos="fade-up" data-aos-duration = "2000"> Navy Blue Suit/Dress </h1>
                     </div>
                     <div class = "row text-center pt-5">
-                        <h1 class = "header-font-2 fs-2" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "250"> Shirt, Pants, Shoes </h1>
+                        <h1 class = "header-font-2 fs-2" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "250"> Alternative Dresscode </h1>
                         <div class="swiper mySwiper py-3" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "500">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/images/Black Shirt.png">
+                                    <img src="/images/Formal-1.jpg">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="/images/Cream Shirt.png" />
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="/images/White Shirt.png" />
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="/images/Black Pants.png" />
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="/images/Cream Pants.png" />
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="/images/White Pants.png" />
+                                    <img src="/images/Formal-2.jpg" />
                                 </div>
                             </div>
                             <div class="swiper-button-prev"></div>
                             <div class="swiper-button-next"></div>
                         </div>
-                        <h1 class = "header-font fs-4" data-aos="fade-up" data-aos-duration = "2000"> Cream/White/Black </h1>
-                    </div>
-                    <div class = "row text-center py-5">
-                        <h1 class = "header-font-2 fs-2" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "250"> Accessories </h1>
-                        <div class="swiper mySwiper py-3" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "500">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <img src="/images/Gold Watch.png">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="/images/Gold Necklace.png" />
-                                </div>
-                            </div>
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div>
-                        </div>
-                        <h1 class = "header-font fs-4" data-aos="fade-up" data-aos-duration = "2000"> Gold-Colored Accessories </h1>
+                        <h1 class = "header-font fs-4" data-aos="fade-up" data-aos-duration = "2000"> Formal Attire </h1>
                     </div>
                 </div>
             </div> 

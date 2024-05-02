@@ -39,8 +39,6 @@ Route::get('/infovip', function () {
 
 Route::get('/download', [PDFController::class, 'download'])->name('download');
 
-Route::get('/pdfview', function () {
-    return view('pdf');
-})->name('pdf');
+Route::get('/pdfview', [PDFController::class, 'view'])->name('pdf');
 
 Auth::routes();
