@@ -140,7 +140,7 @@
             <div class = "row performers-background justify-content-center align-items-center align-middle header-2">
             <img class = "position-relative w-100 line-style" src = "/images/Line.png"> 
                 <div class = "col text-center">
-                    <img src="/images/Performers.png" alt="Text" class = "performers mt-3 mt-md-0" data-aos="fade-up" data-aos-duration = "2000"> 
+                    <img src="/images/PERFORMERS.png" alt="Performers" class = "performers mt-3 mt-md-0" data-aos="fade-up" data-aos-duration = "2000"> 
                     <div class="swiper mySwiper mt-1 mt-md-3" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "250">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -202,7 +202,7 @@
                         <p class="fs-4 text-center align-items-center align-middle"> <img src="/images/Contact-1.png" alt="Contact Icon" class = "text-end contact-icon"> Line ID: nevilson </p>
                     </div>
                     <div class = "row w-100 px-5 mx-auto align-items-center align-middle" data-aos = "fade-up" data-aos-duration = "2000" data-aos-delay = "500">
-                        <p class="fs-4 text-center align-items-center align-middle"> <img src="/images/Contact-2.png" alt="Contact Icon" class = "text-end contact-icon"> Whatsapp: 08113478882 </p>
+                        <p class="fs-4 text-center align-items-center align-middle"> <img src="/images/Contact-2.png" alt="Contact Icon" class = "text-end contact-icon"> Whatsapp: +62 811-4505-521 </p>
                     </div>
                 </div>
             </div>

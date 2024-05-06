@@ -147,7 +147,7 @@
                             <div class = "row justify-content-start">
                                 <div class = "col-12 col-md-4" data-aos="fade-up" data-aos-duration = "2000"  data-aos-delay = "250"> 
                                     <h2 class="fw-bold rundown-font-header"> 19.32 - 19.37 </h2>
-                                    <h3 class="fw-light rundown-font"> Performance "BMA" </h3>
+                                    <h3 class="fw-light rundown-font"> Special Performance </h3>
                                 </div>
                                 <div class = "col-12 col-md-4" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "250">
                                     <img class = "s-line position-relative star-line rotate-right">

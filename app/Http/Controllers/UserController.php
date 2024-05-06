@@ -12,8 +12,8 @@ use Illuminate\Support\Str;
 class UserController extends Controller
 {
     public static function guestlist(){
-        $guests = User::where('role', 'guest')->paginate(3);
-        $vips = User::where('role', 'VIP')->paginate(3);
+        $guests = User::where('role', 'guest')->paginate(5);
+        $vips = User::where('role', 'VIP')->paginate(5);
     
         return view('guestlist', [
             'guests' => $guests,
@@ -28,12 +28,12 @@ class UserController extends Controller
                                 $query->where('name', 'like', '%' . $request->search . '%')
                                     ->orWhere('email', 'like', '%' . $request->search . '%');
                             })
-                            ->paginate(3)->withQueryString();
+                            ->paginate(5)->withQueryString();
         } else {
-            $guests = User::where('role', 'guest')->paginate(3);
+            $guests = User::where('role', 'guest')->paginate(5);
         }
 
-        $vips = User::where('role', 'VIP')->paginate(3);
+        $vips = User::where('role', 'VIP')->paginate(5);
     
         return view('guestlist', [
             'guests' => $guests,
@@ -48,12 +48,12 @@ class UserController extends Controller
                                 $query->where('name', 'like', '%' . $request->search . '%')
                                     ->orWhere('email', 'like', '%' . $request->search . '%');
                             })
-                            ->paginate(3)->withQueryString();
+                            ->paginate(5)->withQueryString();
         } else {
-            $vips = User::where('role', 'VIP')->paginate(3);
+            $vips = User::where('role', 'VIP')->paginate(5);
         }
         
-        $guests = User::where('role', 'guest')->paginate(3);
+        $guests = User::where('role', 'guest')->paginate(5);
     
         return view('guestlist', [
             'guests' => $guests,
