@@ -556,7 +556,7 @@
                         </a>
                     @endguest
                     <a class="navbar-brand" href="https://www.ciputra.ac.id/bma/">
-                        <img src="/images/Watermark.png" class = "watermark-image" alt = "Watermark" data-aos="fade-up" data-aos-duration="2000">
+                        <img src="/images/Watermark.png" class = "watermark-image ms-5" alt = "Watermark" data-aos="fade-up" data-aos-duration="2000">
                     </a>
                     @auth
                         @if (Auth::user()->isGuest() || Auth::user()->isVIP())
