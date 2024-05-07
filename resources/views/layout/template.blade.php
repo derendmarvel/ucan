@@ -308,7 +308,7 @@
         #swiper2 .swiper-slide {
             background-position: center;
             background-size: cover;
-            height: 200px;
+            height: 300px;
         }
 
         #swiper2 .swiper-slide img {
@@ -514,13 +514,13 @@
                 font-size: 20px;
             }
             #swiper2 .swiper {
-                width: 75%;
+                width: 45%;
             }
 
             #swiper2 .swiper-slide {
                 background-position: center;
                 background-size: cover;
-                height: 530px;
+                height: 520px;
             }
 
             #swiper2 .swiper-slide img {
@@ -556,7 +556,7 @@
                         </a>
                     @endguest
                     <a class="navbar-brand" href="https://www.ciputra.ac.id/bma/">
-                        <img src="/images/Watermark.png" class = "watermark-image ms-5" alt = "Watermark" data-aos="fade-up" data-aos-duration="2000">
+                        <img src="/images/Watermark.png" class = "watermark-image ms-4 ms-md-5" alt = "Watermark" data-aos="fade-up" data-aos-duration="2000">
                     </a>
                     @auth
                         @if (Auth::user()->isGuest() || Auth::user()->isVIP())
@@ -634,7 +634,7 @@
 
         <footer>
             <div class="w-100 align-items-center align-middle pt-3 pb-1 px-4 footer-gradient footer-font">
-                <p class = "text-center"> Copyright © 2024 All Rights Reserved | Biro Mahasiswa Alumni Universitas Ciputra </p>
+                <p class = "text-center"> Copyright © 2024 All Rights Reserved | Student Affair Universitas Ciputra </p>
             </div>
         </footer>
     </div>

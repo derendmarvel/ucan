@@ -80,7 +80,7 @@
                                 </div>
                                 <div class = "col-12 col-md-4 mb-5 mb-md-0" data-aos="fade-up" data-aos-duration = "2000"  data-aos-delay = "250"> 
                                     <h2 class="fw-bold rundown-font-header"> 17.20 - 17.30 </h2>
-                                    <h3 class="fw-light rundown-font"> Performance "Freya" </h3>
+                                    <h3 class="fw-light rundown-font"> Performance "Dance by Charleene" </h3>
                                 </div>
                                 
                             </div>
@@ -167,7 +167,7 @@
                             <div class = "row justify-content-start">
                                 <div class = "col-12 col-md-4" data-aos="fade-up" data-aos-duration = "2000"  data-aos-delay = "250"> 
                                     <h2 class="fw-bold rundown-font-header"> 20.07 - 20.10 </h2>
-                                    <h3 class="fw-light rundown-font"> Performance "Dance by Charleene" </h3>
+                                    <h3 class="fw-light rundown-font"> Performance "Freya" </h3>
                                 </div>
                                 <div class = "col-12 col-md-4" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "250">
                                     <img class = "s-line position-relative star-line rotate-right">
@@ -250,16 +250,10 @@
                         <div class="swiper mySwiper py-3" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "500">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/images/Black Shirt.png">
-                                </div>
-                                <div class="swiper-slide">
                                     <img src="/images/Cream Shirt.png" />
                                 </div>
                                 <div class="swiper-slide">
                                     <img src="/images/White Shirt.png" />
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="/images/Black Pants.png" />
                                 </div>
                                 <div class="swiper-slide">
                                     <img src="/images/Cream Pants.png" />
@@ -271,7 +265,7 @@
                             <div class="swiper-button-prev"></div>
                             <div class="swiper-button-next"></div>
                         </div>
-                        <h1 class = "header-font fs-4" data-aos="fade-up" data-aos-duration = "2000"> Cream/White/Black </h1>
+                        <h1 class = "header-font fs-4" data-aos="fade-up" data-aos-duration = "2000"> Cream/White </h1>
                     </div>
                     <div class = "row text-center py-5">
                         <h1 class = "header-font-2 fs-2" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "250"> Accessories </h1>
@@ -328,6 +322,9 @@
                         </div>
                         <div class="swiper-slide">
                             <img src="/images/Activity-3.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/images/Activity-4.jpg" />
                         </div>
                     </div>
                     <div class="swiper-button-next"></div>

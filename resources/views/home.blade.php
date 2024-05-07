@@ -81,7 +81,7 @@
                     <div class="col-12">
                         <!-- Use text-center to align content on small screens -->
                         <p class="fw-light desc text-center text-md-start">
-                            Universitas Ciputra Awarding Night 2024 merupakan ajang penghargaan yang diselenggarakan oleh Biro Mahasiswa Alumni (BMA) untuk setiap mahasiswa berprestasi dan organisasi kemahasiswaan di Universitas Ciputra Surabaya yang memiliki prestasi di bidang non-akademik tingkat nasional dan internasional.
+                            Universitas Ciputra Awarding Night 2024 merupakan ajang penghargaan yang diselenggarakan oleh Student Affair (SA) untuk setiap mahasiswa berprestasi dan organisasi kemahasiswaan di Universitas Ciputra Surabaya yang memiliki prestasi di bidang non-akademik tingkat nasional dan internasional.
                         </p>
                     </div>
                     </div>
