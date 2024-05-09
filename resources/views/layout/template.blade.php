@@ -118,6 +118,10 @@
             width: 24px;
         }
 
+        .twibbon{
+            width: 250px;
+        }
+
         .header{
             padding-left: 10px;
             padding-right: 10px;
@@ -342,6 +346,10 @@
             width: 50px;
         }
 
+        .s-line-extra{
+            top: 125px;
+        }
+
         .rotate-right{
             transform: rotate(90deg);
         }
@@ -459,6 +467,9 @@
             .contact-icon{
                 width: 40px;
             }
+            .twibbon{
+                width: 400px;
+            }
             .btn-white {
                 background: transparent;
                 border: 2px solid;
@@ -514,7 +525,7 @@
                 font-size: 20px;
             }
             #swiper2 .swiper {
-                width: 45%;
+                width: 80%;
             }
 
             #swiper2 .swiper-slide {
@@ -604,6 +615,9 @@
                         @endauth
                         <li class="nav-item">
                             <a class="nav-link text-white" href="/info#rundown"> Rundown </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/info#twibbon"> Twibbon </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="/info#dateloc"> Date & Location </a>

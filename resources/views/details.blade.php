@@ -55,6 +55,17 @@
                 </div>
             </div>
 
+            <div class = "row header justify-content-center align-items-center align-middle py-5 py-md-0 mt-5 mb-0 mb-md-3 text-center text-md-start" id = "twibbon">
+                <div class = "col-12 col-md-5 justify-content-center align-middle py-3 text-center text-md-start" data-aos="fade-up" data-aos-duration = "2000">
+                    <p class = "video-font lh-1 text-center text-md-start"> GET YOUR TWIBBON & CAPTION NOW! </p>
+                    <a href = "https://drive.google.com/uc?export=download&id=1LfjSFw_VqRorC1a1jHqIt9xtZZvio4Xn" class="btn btn-white w-75 py-3 px-2 px-md-5 fw-bold rounded-0 my-1"> Download Twibbon </a>
+                    <a href = "https://docs.google.com/document/d/1V7FdDnVmqlzp4jqbVIZXzCIvpshqyUEdp_sfi_EX_AE/export?format=docx" class="btn btn-white w-75 py-3 px-2 px-md-5 fw-bold rounded-0 my-1"> Download Caption </a>
+                </div>
+                <div class = "col-12 col-md-5 justify-content-center" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "250">
+                    <img src = "/images/Twibbon.png" class = "twibbon">
+                </div>
+            </div>
+
             <div class = "row justify-content-center align-items-center align-middle header">
                 <div class = "col py-4" id = "rundown">
                     <div class = "row justify-content-center align-items-center align-middle text-center mb-5" data-aos="fade-up" data-aos-duration = "2000">
@@ -76,7 +87,7 @@
                                 <div class = "col-md-4">
                                 </div>
                                 <div class = "col-12 col-md-4" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "250">
-                                    <img class = "s-line-2 position-relative star-line rotate-left">
+                                    <img class = "s-line-2 s-line-extra position-relative star-line rotate-left">
                                 </div>
                                 <div class = "col-12 col-md-4 mb-5 mb-md-0" data-aos="fade-up" data-aos-duration = "2000"  data-aos-delay = "250"> 
                                     <h2 class="fw-bold rundown-font-header"> 17.20 - 17.30 </h2>
@@ -311,25 +322,30 @@
             </div> -->
 
             <div class = "row header-3 justify-content-center align-items-center align-middle" id = "swiper2">
-                <img src="/images/Activity.png" class = "text-center activity" alt="Text" data-aos="fade-up" data-aos-duration = "2000">
-                <div class="swiper mySwiper2" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "250">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide" >
-                            <img src="/images/Activity-1.jpg" />
+                <div class = "col-12 col-md-6 justify-content-center text-center">
+                    <img src="/images/Activity.png" class = "activity" alt="Text" data-aos="fade-up" data-aos-duration = "2000">
+                    <p class = "fw-medium fs-2 lh-1 text-center mt-5"  data-aos="fade-up" data-aos-duration = "2000" data-aos-delay="250"> A snippet at our upcoming photobooth! </p>
+                </div>
+                <div class = "col-12 col-md-6">
+                    <div class="swiper mySwiper2" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "500">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" >
+                                <img src="/images/Activity-1.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/images/Activity-2.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/images/Activity-3.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/images/Activity-4.jpg" />
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <img src="/images/Activity-2.jpg" />
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="/images/Activity-3.jpg" />
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="/images/Activity-4.jpg" />
-                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
                     </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </div>
