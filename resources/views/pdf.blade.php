@@ -1,9 +1,8 @@
 <?php
-    $baseDir = 'C:/Users/YOGA 720/ucan/public/images';
     $relativePath = 'PDF Background.jpg';
-    $absolutePath = $baseDir . '/' . $relativePath;
+    $absolutePath = public_path('images/' . $relativePath);
     $relativePath2 = 'Watermark - 2.png';
-    $absolutePath2 = $baseDir . '/' . $relativePath2;
+    $absolutePath2 = public_path('images/' . $relativePath2);
 
     $data = file_get_contents($absolutePath);
     $base64 = 'data:image/' . pathinfo($relativePath, PATHINFO_EXTENSION) . ';base64,' . base64_encode($data);

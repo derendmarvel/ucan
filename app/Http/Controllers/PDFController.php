@@ -9,10 +9,12 @@ use Barryvdh\DomPDF\Facade\Pdf;
 class PDFController extends Controller
 {
     public function download() {
+        ini_set('max_execution_time', 300);
+        ini_set("memory_limit","512M");
         $user = Auth::user();
         
         if(!$user['invitation_code']){
-            $user['invitation_code'] = 'UCAN-'.$user->id.'-INV-'.$user->nim;
+            $user['invitation_code'] = 'UCAN Invitation-'.$user->id.'-'.$user->nim;
         }
 
         $pdf = Pdf::loadView('pdf', ['user' => $user]);
