@@ -23,7 +23,7 @@
                                 </div>
                                 <div class="col-7">
                                     <h2 class="fw-bold fs-1">5 June</h2>
-                                    <h3 class="fw-light fs-3">2023</h3>
+                                    <h3 class="fw-light fs-3">2024</h3>
                                 </div>
                             </div>
                         </div>
@@ -101,7 +101,7 @@
                                 </div>
                                 <div class = "col-12 col-md-4 mb-5 mb-md-0" data-aos="fade-up" data-aos-duration = "2000"  data-aos-delay = "250"> 
                                     <h2 class="fw-bold rundown-font-header"> 17.55 - 18.25 </h2>
-                                    <h3 class="fw-light rundown-font"> Awarding Session 1-4 </h3>
+                                    <h3 class="fw-light rundown-font"> Awarding Session </h3>
                                 </div>
                             </div>
                             <div class = "row justify-content-start">
@@ -121,7 +121,7 @@
                                 </div>
                                 <div class = "col-12 col-md-4 mb-5 mb-md-0" data-aos="fade-up" data-aos-duration = "2000"  data-aos-delay = "250"> 
                                     <h2 class="fw-bold rundown-font-header"> 18.30 - 18.56 </h2>
-                                    <h3 class="fw-light rundown-font"> Awarding Session 5-8 </h3>
+                                    <h3 class="fw-light rundown-font"> Awarding Session </h3>
                                 </div>
                             </div>
                             <div class = "row justify-content-start">
@@ -141,7 +141,7 @@
                                 </div>
                                 <div class = "col-12 col-md-4 mb-5 mb-md-0" data-aos="fade-up" data-aos-duration = "2000"  data-aos-delay = "250"> 
                                     <h2 class="fw-bold rundown-font-header"> 19.02 - 19.32 </h2>
-                                    <h3 class="fw-light rundown-font"> Awarding Session 9-12 </h3>
+                                    <h3 class="fw-light rundown-font"> Awarding Session </h3>
                                 </div>
                             </div>
                             <div class = "row justify-content-start">
@@ -161,7 +161,7 @@
                                 </div>
                                 <div class = "col-12 col-md-4 mb-5 mb-md-0" data-aos="fade-up" data-aos-duration = "2000"  data-aos-delay = "250"> 
                                     <h2 class="fw-bold rundown-font-header"> 19.37 - 20.07 </h2>
-                                    <h3 class="fw-light rundown-font"> Awarding Session 13-15 </h3>
+                                    <h3 class="fw-light rundown-font"> Awarding Session </h3>
                                 </div>
                             </div>
                             <div class = "row justify-content-start">
@@ -181,7 +181,7 @@
                                 </div>
                                 <div class = "col-12 col-md-4 mb-5 mb-md-0" data-aos="fade-up" data-aos-duration = "2000"  data-aos-delay = "250"> 
                                     <h2 class="fw-bold rundown-font-header"> 20.10 - 20.32 </h2>
-                                    <h3 class="fw-light rundown-font"> Awarding Session 16-17 </h3>
+                                    <h3 class="fw-light rundown-font"> Awarding Session </h3>
                                 </div>
                             </div>
                             <div class = "row justify-content-start">
@@ -201,7 +201,7 @@
                                 </div>
                                 <div class = "col-12 col-md-4 mb-5 mb-md-0" data-aos="fade-up" data-aos-duration = "2000"  data-aos-delay = "250"> 
                                     <h2 class="fw-bold rundown-font-header"> 20.37 - 20.43 </h2>
-                                    <h3 class="fw-light rundown-font"> Awarding Session 18 </h3>
+                                    <h3 class="fw-light rundown-font"> Awarding Session </h3>
                                 </div>
                             </div>
                             <div class = "row justify-content-start">
@@ -289,22 +289,30 @@
             </div> -->
 
             <div class = "row header-3 justify-content-center align-items-center align-middle" id = "swiper2">
-                <img src="/images/Activity.png" class = "text-center activity" alt="Text" data-aos="fade-up" data-aos-duration = "2000">
-                <div class="swiper mySwiper2" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "250">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide" >
-                            <img src="/images/Activity-1.jpg" />
+                <div class = "col-12 col-md-6 justify-content-center text-center">
+                    <img src="/images/Activity.png" class = "activity" alt="Text" data-aos="fade-up" data-aos-duration = "2000">
+                    <p class = "fw-medium fs-2 lh-1 text-center mt-5"  data-aos="fade-up" data-aos-duration = "2000" data-aos-delay="250"> A snippet at our upcoming photobooth! </p>
+                </div>
+                <div class = "col-12 col-md-6">
+                    <div class="swiper mySwiper2" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "500">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" >
+                                <img src="/images/Activity-1.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/images/Activity-2.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/images/Activity-3.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/images/Activity-4.jpg" />
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <img src="/images/Activity-2.jpg" />
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="/images/Activity-3.jpg" />
-                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
                     </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </div>

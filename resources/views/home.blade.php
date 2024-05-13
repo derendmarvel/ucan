@@ -33,7 +33,7 @@
                         </div>
                         <div class="col-7">
                             <h2 class="fw-bold fs-1">5 June</h2>
-                            <h3 class="fw-light fs-3">2023</h3>
+                            <h3 class="fw-light fs-3">2024</h3>
                         </div>
                     </div>
                 </div>

@@ -531,7 +531,7 @@
             #swiper2 .swiper-slide {
                 background-position: center;
                 background-size: cover;
-                height: 520px;
+                height: 480px;
             }
 
             #swiper2 .swiper-slide img {
