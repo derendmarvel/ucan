@@ -247,7 +247,7 @@
         }
 
         .footer-gradient {
-            background: linear-gradient(to right, #002D5E, #0078C2);
+            background: linear-gradient(to right, #00001D, #00437F);
             border: none;
             color: white;
         }

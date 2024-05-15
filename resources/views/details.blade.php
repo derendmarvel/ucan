@@ -87,11 +87,11 @@
                                 <div class = "col-md-4">
                                 </div>
                                 <div class = "col-12 col-md-4" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "250">
-                                    <img class = "s-line-2 s-line-extra position-relative star-line rotate-left">
+                                    <img class = "s-line-2 position-relative star-line rotate-left">
                                 </div>
                                 <div class = "col-12 col-md-4 mb-5 mb-md-0" data-aos="fade-up" data-aos-duration = "2000"  data-aos-delay = "250"> 
                                     <h2 class="fw-bold rundown-font-header"> 17.20 - 17.30 </h2>
-                                    <h3 class="fw-light rundown-font"> Performance "Dance by Charleene" </h3>
+                                    <h3 class="fw-light rundown-font"> Performance 1 </h3>
                                 </div>
                                 
                             </div>
@@ -118,7 +118,7 @@
                             <div class = "row justify-content-start">
                                 <div class = "col-12 col-md-4" data-aos="fade-up" data-aos-duration = "2000"  data-aos-delay = "250"> 
                                     <h2 class="fw-bold rundown-font-header"> 18.25 - 18.30 </h2>
-                                    <h3 class="fw-light rundown-font"> Performance "Violin + Piano" </h3>
+                                    <h3 class="fw-light rundown-font"> Performance 2 </h3>
                                 </div>
                                 <div class = "col-12 col-md-4" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "250">
                                     <img class = "s-line position-relative star-line rotate-right">
@@ -131,14 +131,14 @@
                                     <img class = "s-line-2 position-relative star-line rotate-left">
                                 </div>
                                 <div class = "col-12 col-md-4 mb-5 mb-md-0" data-aos="fade-up" data-aos-duration = "2000"  data-aos-delay = "250"> 
-                                    <h2 class="fw-bold rundown-font-header"> 18.30 - 18.56 </h2>
+                                    <h2 class="fw-bold rundown-font-header"> 18.30 - 18.55 </h2>
                                     <h3 class="fw-light rundown-font"> Awarding Session </h3>
                                 </div>
                             </div>
                             <div class = "row justify-content-start">
                                 <div class = "col-12 col-md-4" data-aos="fade-up" data-aos-duration = "2000"  data-aos-delay = "250"> 
-                                    <h2 class="fw-bold rundown-font-header"> 18.56 - 19.02 </h2>
-                                    <h3 class="fw-light rundown-font"> Performance "Taekwondo" </h3>
+                                    <h2 class="fw-bold rundown-font-header"> 18.55 - 19.00 </h2>
+                                    <h3 class="fw-light rundown-font"> Performance 3 </h3>
                                 </div>
                                 <div class = "col-12 col-md-4" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "250">
                                     <img class = "s-line position-relative star-line rotate-right">
@@ -151,14 +151,14 @@
                                     <img class = "s-line-2 position-relative star-line rotate-left">
                                 </div>
                                 <div class = "col-12 col-md-4 mb-5 mb-md-0" data-aos="fade-up" data-aos-duration = "2000"  data-aos-delay = "250"> 
-                                    <h2 class="fw-bold rundown-font-header"> 19.02 - 19.32 </h2>
+                                    <h2 class="fw-bold rundown-font-header"> 19.00 - 19.30 </h2>
                                     <h3 class="fw-light rundown-font"> Awarding Session </h3>
                                 </div>
                             </div>
                             <div class = "row justify-content-start">
                                 <div class = "col-12 col-md-4" data-aos="fade-up" data-aos-duration = "2000"  data-aos-delay = "250"> 
-                                    <h2 class="fw-bold rundown-font-header"> 19.32 - 19.37 </h2>
-                                    <h3 class="fw-light rundown-font"> Special Performance </h3>
+                                    <h2 class="fw-bold rundown-font-header"> 19.30 - 19.40 </h2>
+                                    <h3 class="fw-light rundown-font"> Performance 4 </h3>
                                 </div>
                                 <div class = "col-12 col-md-4" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "250">
                                     <img class = "s-line position-relative star-line rotate-right">
@@ -171,14 +171,14 @@
                                     <img class = "s-line-2 position-relative star-line rotate-left">
                                 </div>
                                 <div class = "col-12 col-md-4 mb-5 mb-md-0" data-aos="fade-up" data-aos-duration = "2000"  data-aos-delay = "250"> 
-                                    <h2 class="fw-bold rundown-font-header"> 19.37 - 20.07 </h2>
+                                    <h2 class="fw-bold rundown-font-header"> 19.40 - 20.05 </h2>
                                     <h3 class="fw-light rundown-font"> Awarding Session </h3>
                                 </div>
                             </div>
                             <div class = "row justify-content-start">
                                 <div class = "col-12 col-md-4" data-aos="fade-up" data-aos-duration = "2000"  data-aos-delay = "250"> 
-                                    <h2 class="fw-bold rundown-font-header"> 20.07 - 20.10 </h2>
-                                    <h3 class="fw-light rundown-font"> Performance "Freya" </h3>
+                                    <h2 class="fw-bold rundown-font-header"> 20.05 - 20.10 </h2>
+                                    <h3 class="fw-light rundown-font"> Performance 5 </h3>
                                 </div>
                                 <div class = "col-12 col-md-4" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "250">
                                     <img class = "s-line position-relative star-line rotate-right">
@@ -191,14 +191,14 @@
                                     <img class = "s-line-2 position-relative star-line rotate-left">
                                 </div>
                                 <div class = "col-12 col-md-4 mb-5 mb-md-0" data-aos="fade-up" data-aos-duration = "2000"  data-aos-delay = "250"> 
-                                    <h2 class="fw-bold rundown-font-header"> 20.10 - 20.32 </h2>
+                                    <h2 class="fw-bold rundown-font-header"> 20.10 - 20.30 </h2>
                                     <h3 class="fw-light rundown-font"> Awarding Session </h3>
                                 </div>
                             </div>
                             <div class = "row justify-content-start">
                                 <div class = "col-12 col-md-4" data-aos="fade-up" data-aos-duration = "2000"  data-aos-delay = "250"> 
-                                    <h2 class="fw-bold rundown-font-header"> 20.32 - 20.37 </h2>
-                                    <h3 class="fw-light rundown-font"> Performance "BDC" </h3>
+                                    <h2 class="fw-bold rundown-font-header"> 20.30 - 20.35 </h2>
+                                    <h3 class="fw-light rundown-font"> Performance 6 </h3>
                                 </div>
                                 <div class = "col-12 col-md-4" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "250">
                                     <img class = "s-line position-relative star-line rotate-right">
@@ -211,13 +211,13 @@
                                     <img class = "s-line-2 position-relative star-line rotate-left">
                                 </div>
                                 <div class = "col-12 col-md-4 mb-5 mb-md-0" data-aos="fade-up" data-aos-duration = "2000"  data-aos-delay = "250"> 
-                                    <h2 class="fw-bold rundown-font-header"> 20.37 - 20.43 </h2>
+                                    <h2 class="fw-bold rundown-font-header"> 20.35 - 20.40 </h2>
                                     <h3 class="fw-light rundown-font"> Awarding Session </h3>
                                 </div>
                             </div>
                             <div class = "row justify-content-start">
                                 <div class = "col-12 col-md-4" data-aos="fade-up" data-aos-duration = "2000"  data-aos-delay = "250"> 
-                                    <h2 class="fw-bold rundown-font-header"> 20.43 - 20.48 </h2>
+                                    <h2 class="fw-bold rundown-font-header"> 20.40 - 20.45 </h2>
                                     <h3 class="fw-light rundown-font"> Closing </h3>
                                 </div>
                                 <div class = "col-12 col-md-4" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "250">
@@ -226,8 +226,8 @@
                             </div>
                             <div class = "row justify-content-end mt-4 mt-md-0">
                                 <div class = "col-12 col-md-4" data-aos="fade-up" data-aos-duration = "2000"  data-aos-delay = "250"> 
-                                    <h2 class="fw-bold rundown-font-header"> 20.48 - 21.03 </h2>
-                                    <h3 class="fw-light rundown-font"> Closing Performance "Resonance" </h3>
+                                    <h2 class="fw-bold rundown-font-header"> 20.45 - 21.00 </h2>
+                                    <h3 class="fw-light rundown-font"> Performance 7 </h3>
                                 </div>
                             </div>
                         </div>
