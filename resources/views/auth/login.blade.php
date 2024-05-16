@@ -3,9 +3,9 @@
 @section('title', 'Login')
 
 @section('content')
-<div class="w-100 h-100">
-    <div class="container-fluid">
-        <div class="row invitation-background login-section align-items-center">
+<div class="w-100 h-100 m-0">
+    <div class="container-fluid h-100">
+        <div class="row invitation-background login-section align-items-center align-middle">
             <div class="col-md-6 mt-2">
                 <div class="row" data-aos="fade-right" data-aos-duration="2000"> 
                     <!-- Content for the left column (Sign In form) -->

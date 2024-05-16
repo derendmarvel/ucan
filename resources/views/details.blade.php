@@ -8,6 +8,8 @@
             <div class="row header-info align-items-center align-middle">
                 <div class="col-12 text-center mt-5">
                     <img src="/images/ucan white.png" alt="Title" class = "logo" data-aos = "fade-up" data-aos-duration = "2000" data-aos-delay = "250">
+                </div>
+                <div class = "col-12 text-center">
                     <a class="btn btn-white w-50 py-3 px-2 px-md-5 fw-bold rounded-0 my-3" href = "{{ route('download') }}" data-aos = "fade-up" data-aos-duration = "2000" data-aos-delay = "750"> GET INVITATION </a>
                 </div>
             </div>
@@ -55,14 +57,14 @@
                 </div>
             </div>
 
-            <div class = "row header justify-content-center align-items-center align-middle py-5 py-md-0 mt-5 mb-0 mb-md-3 text-center text-md-start" id = "twibbon">
-                <div class = "col-12 col-md-5 justify-content-center align-middle py-3 text-center text-md-start" data-aos="fade-up" data-aos-duration = "2000">
-                    <p class = "video-font lh-1 text-center text-md-start"> GET YOUR TWIBBON & CAPTION NOW! </p>
+            <div class = "row w-100 header justify-content-center align-items-center align-middle py-5 py-md-0 mt-5 mb-0 mb-md-3" id = "twibbon">
+                <div class = "col-12 col-md-6 justify-content-center align-middle py-3 text-center" data-aos="fade-up" data-aos-duration = "2000">
+                    <p class = "video-font lh-1 text-center"> GET YOUR TWIBBON & CAPTION NOW! </p>
                     <a href = "https://drive.google.com/uc?export=download&id=1LfjSFw_VqRorC1a1jHqIt9xtZZvio4Xn" class="btn btn-white w-75 py-3 px-2 px-md-5 fw-bold rounded-0 my-1"> Download Twibbon </a>
                     <a href = "https://docs.google.com/document/d/1V7FdDnVmqlzp4jqbVIZXzCIvpshqyUEdp_sfi_EX_AE/export?format=docx" class="btn btn-white w-75 py-3 px-2 px-md-5 fw-bold rounded-0 my-1"> Download Caption </a>
                 </div>
-                <div class = "col-12 col-md-5 justify-content-center" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "250">
-                    <img src = "/images/Twibbon.png" class = "twibbon">
+                <div class = "col-12 col-md-6 justify-content-center text-center" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "250">
+                    <img src = "/images/Twibbon.png" class = "twibbon text-center">
                 </div>
             </div>
 
@@ -110,7 +112,7 @@
                                 <div class = "col-12 col-md-4" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "250">
                                     <img class = "s-line-2 position-relative star-line rotate-left">
                                 </div>
-                                <div class = "col-12 col-md-4 mb-5 mb-md-0" data-aos="fade-up" data-aos-duration = "2000"  data-aos-delay = "250"> 
+                                <div class = "col-12 col-md-4 mb-5 mb-md-0" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay = "250"> 
                                     <h2 class="fw-bold rundown-font-header"> 17.55 - 18.25 </h2>
                                     <h3 class="fw-light rundown-font"> Awarding Session </h3>
                                 </div>

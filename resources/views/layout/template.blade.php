@@ -427,14 +427,14 @@
             .login-section{
                 padding-left: 180px;
                 padding-right: 180px;
-                padding-top: 130px;
-                padding-bottom: 100px;
+                padding-top: 10%;
+                padding-bottom: 10%;
             }
             .watermark-image{
                 width: 160px;
             }
             .awarding-night-image{
-                max-width: 70%;
+                max-width: 700px;
             }
             .what{
                 width: 550px;
@@ -525,13 +525,15 @@
                 font-size: 20px;
             }
             #swiper2 .swiper {
-                width: 80%;
+                width: 360px;
+                height: 540px;
             }
 
             #swiper2 .swiper-slide {
                 background-position: center;
                 background-size: cover;
-                height: 480px;
+                width: 100%;
+                height: 100%;
             }
 
             #swiper2 .swiper-slide img {
