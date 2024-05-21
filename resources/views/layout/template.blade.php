@@ -26,6 +26,7 @@
             font-family: 'Montserrat', sans-serif;
             color: white;
             text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
+            background-color: #01002E;
             width: 100%;
             height: 100%;
             margin: 0;
@@ -660,7 +661,7 @@
     </script>  
 
     <script>
-        var countDownDate = new Date("Jun 05, 2024 00:00:00").getTime();
+        var countDownDate = new Date("Jun 05, 2024 17:00:00").getTime();
         var x = setInterval(function(){
             var now = new Date().getTime();
             var distance = countDownDate - now;
