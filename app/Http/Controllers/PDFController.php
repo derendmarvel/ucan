@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Barryvdh\DomPDF\Facade\Pdf;
@@ -28,5 +29,16 @@ class PDFController extends Controller
         return view('pdf', [
             'user' => $user
         ]);
+    }
+
+    public function allguests() {
+        ini_set('max_execution_time', 300);
+        ini_set("memory_limit","512M");
+        $guests = User::where('role', 'guest')->get();
+        $VIPs = User::where('role', 'VIP')->get();
+
+        $pdf = Pdf::loadView('allguests', ['guests' => $guests, 'VIPs' => $VIPs]);
+     
+        return $pdf->download('All Guests.pdf');
     }
 }

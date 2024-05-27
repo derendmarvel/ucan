@@ -380,6 +380,11 @@
             color: white; /* Set text color to white */
         }
 
+        .btn-size{
+            width: 20px;
+            height: 20px;
+        }
+
         @media (max-width: 767px) {
             .hide-on-mobile {
                 display: none; /* Hide the columns */
