@@ -57,7 +57,7 @@
                 </div>
             </div>
 
-            <div class = "row w-100 header justify-content-center align-items-center align-middle py-5 py-md-0 mt-5 mb-0 mb-md-3" id = "twibbon">
+            <div class = "row header justify-content-center align-items-center align-middle py-5 py-md-0 mt-5 mb-0 mb-md-3" id = "twibbon">
                 <div class = "col-12 col-md-6 justify-content-center align-middle py-3 text-center" data-aos="fade-up" data-aos-duration = "2000">
                     <p class = "video-font lh-1 text-center"> GET YOUR TWIBBON & CAPTION NOW! </p>
                     <a href = "https://drive.google.com/uc?export=download&id=1LfjSFw_VqRorC1a1jHqIt9xtZZvio4Xn" class="btn btn-white w-75 py-3 px-2 px-md-5 fw-bold rounded-0 my-1"> Download Twibbon </a>
